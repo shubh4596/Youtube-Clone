@@ -1,0 +1,54 @@
+#HeaderBlock {
+  background: #fff;
+  height: 60px;
+  padding: 0 20px;
+}
+
+.bg-light {
+  background: #fff !important;
+  height: 60px;
+  padding: 0 20px;
+}
+
+#HeaderBlock .logo {
+  width: 80px;
+}
+
+#HeaderBlock .bars {
+  margin: 0 24px 0 0px;
+}
+
+.customBlockHeader {
+  display: flex;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.searchBlock {
+  flex-basis: 58%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-right: -176px;
+}
+
+.menuBlock{
+    display: flex;
+    flex-basis: 33%;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    margin-right: -50px;
+   
+}
+
+.menuBlock div{
+    margin-left: 40px;
+    float: right;
+}
+
+.menuBlock div img {
+  width: 20px;
+}
